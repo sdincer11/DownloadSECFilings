@@ -72,6 +72,7 @@ def downloadSECFiling(url,downloadPath,logFilePath):
         with open(logFilePath, mode='a') as file:
             file.write(url+'\n')
 
+
 def downloadSECFilings(localFolderPath, formTypesList, dateStart, dateFinish, edgarMasterFilePath=None):
     localFolderPath = localFolderPath[:,-1] if localFolderPath[-1] == '/' else localFolderPath
     baseURL = 'https://www.sec.gov/Archives/'

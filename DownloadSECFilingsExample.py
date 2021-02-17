@@ -15,3 +15,4 @@ downloadSECFilings('C:/path to your folder where you want to download the filing
                    dateStart=20000101,
                    dateFinish=20010630,
                    )
+
